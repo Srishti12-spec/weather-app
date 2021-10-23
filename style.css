@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    /* background: url('https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHdlYXRoZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60'); */
+    /* background: url('https://cdn.dribbble.com/users/705137/screenshots/2679702/media/6ad0518b299acfb5704f1f156be05ea3.gif'); */
+    /* background: url('https://cdn.dribbble.com/users/1761137/screenshots/3665783/media/cad200dc16b1875740b182ec8ed6753a.gif'); */
+    background: url('https://icon-library.com/images/weather-icon-gif/weather-icon-gif-22.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 120%;
+
+    
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    background: #000000d0;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    color: white;
+
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input.Search-bar{
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background:#7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+
+}
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    background: #7c7c7c6b;
+}
+
+h1.temp{
+    margin: 0;
+}
+
+

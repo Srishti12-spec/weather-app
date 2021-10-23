@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="init_weather()">
+    <div class="card">
+        <div class="search">
+            <input type="text" class="Search-bar" id="search-bar_id" placeholder="Search.." />
+            <button type="submit" onclick="search_weather()"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="weather">
+            <h2 class="city" id="city_id"></h2>
+            <h1 class="temp" id="temp_id"></h1>
+            <img src="" alt="" class="icon" />
+            <div class="description" id="description_id"></div>
+            <div class="humidity" id="humidity_id"></div>
+            <div class="wind" id="wind_id"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
